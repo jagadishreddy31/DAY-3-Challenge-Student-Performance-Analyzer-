@@ -1,3 +1,8 @@
+# Personalization Logic:
+# The program checks the length of each student’s name.
+# If the name length is even, 5 marks are added to the student’s score.
+# If the name length is odd, the marks remain unchanged.
+# This makes the result depend on each student’s individual name.
 N = int(input("Enter number of students: "))
 
 names = [""] * N
@@ -47,3 +52,4 @@ for i in range(N):
 
 print("Total Valid Students:", valid_count)
 print("Total Failed Students:", fail_count)
+
